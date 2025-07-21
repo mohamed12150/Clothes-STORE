@@ -1,0 +1,81 @@
+import 'package:flutter/material.dart';
+import '../models/product.dart';
+
+// Sample products data
+final List<Product> sampleProducts = [
+  Product(
+    id: '1',
+    title: 'Classic White T-Shirt',
+    description:
+        'A comfortable white cotton t-shirt perfect for everyday wear.',
+    price: 29.99,
+    imageUrl:
+        'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400',
+    availableSizes: ['S', 'M', 'L', 'XL'],
+    availableColors: [Colors.white, Colors.black, Colors.grey],
+    category: 'T-Shirts',
+    rating: 4.5,
+    reviewCount: 128,
+  ),
+  Product(
+    id: '2',
+    title: 'Blue Denim Jacket',
+    description: 'Stylish blue denim jacket with a vintage look.',
+    price: 89.99,
+    imageUrl: 'https://images.unsplash.com/photo-1551028719-00167b16eac5?w=400',
+    availableSizes: ['S', 'M', 'L', 'XL'],
+    availableColors: [Colors.blue, Colors.indigo],
+    category: 'Jackets',
+    rating: 4.7,
+    reviewCount: 89,
+  ),
+  Product(
+    id: '3',
+    title: 'Black Leather Shoes',
+    description: 'Premium black leather shoes for formal occasions.',
+    price: 129.99,
+    imageUrl: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=400',
+    availableSizes: ['39', '40', '41', '42', '43'],
+    availableColors: [Colors.black, Colors.brown],
+    category: 'Shoes',
+    rating: 4.8,
+    reviewCount: 156,
+  ),
+  Product(
+    id: '4',
+    title: 'Summer Dress',
+    description: 'Light and breezy summer dress perfect for warm days.',
+    price: 79.99,
+    imageUrl:
+        'https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=400',
+    availableSizes: ['S', 'M', 'L'],
+    availableColors: [Colors.pink, Colors.yellow, Colors.green],
+    category: 'Dresses',
+    rating: 4.6,
+    reviewCount: 92,
+  ),
+  Product(
+    id: '5',
+    title: 'Red Hoodie',
+    description: 'Cozy red hoodie perfect for cold weather.',
+    price: 59.99,
+    imageUrl: 'https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400',
+    availableSizes: ['S', 'M', 'L', 'XL'],
+    availableColors: [Colors.red, Colors.black, Colors.grey],
+    category: 'Hoodies',
+    rating: 4.4,
+    reviewCount: 73,
+  ),
+  Product(
+    id: '6',
+    title: 'Casual Sneakers',
+    description: 'Comfortable casual sneakers for everyday activities.',
+    price: 99.99,
+    imageUrl: 'https://images.unsplash.com/photo-1560769629-975ec94e6a86?w=400',
+    availableSizes: ['39', '40', '41', '42', '43'],
+    availableColors: [Colors.white, Colors.black, Colors.blue],
+    category: 'Shoes',
+    rating: 4.3,
+    reviewCount: 201,
+  ),
+];
